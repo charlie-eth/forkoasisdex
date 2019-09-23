@@ -3,6 +3,7 @@ import {
   TOKEN_DIGIX,
   TOKEN_MAKER,
   TOKEN_RHOC,
+  TOKEN_RPL,
   TOKEN_WRAPPED_ETH,
 } from "../constants";
 
@@ -25,12 +26,10 @@ export const generateTradingPairs = () => {
       isDefault: true
     },
     {
-      base: TOKEN_DIGIX,
-      quote: TOKEN_WRAPPED_ETH
-    },
-    {
-      base: TOKEN_RHOC,
-      quote: TOKEN_WRAPPED_ETH
-    },
+      base: TOKEN_RPL,
+      quote: TOKEN_WRAPPED_ETH,
+      isDefault: true
+
+    }
   ];
 };

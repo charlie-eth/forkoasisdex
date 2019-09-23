@@ -16,6 +16,7 @@ import {
   TOKEN_DIGIX,
   TOKEN_MAKER,
   TOKEN_RHOC,
+  TOKEN_RPL,
   TOKEN_WRAPPED_ETH,
 } from '../constants';
 
@@ -42,6 +43,10 @@ const init = networkName => {
   const DGD = loadContact(
     erc20Abi.interface,
     tokencontractsDeploymentAdressessList["DGD"]
+  );
+  const RPL = loadContact(
+    erc20Abi.interface,
+    tokencontractsDeploymentAdressessList["RPL"]
   );
   // const GNT = loadContact(
   //   erc20Abi.interface,
@@ -96,6 +101,7 @@ const init = networkName => {
       [TOKEN_WRAPPED_ETH]: WETH,
       // [TOKEN_WRAPPED_GNT]: WGNT,
       [TOKEN_DAI]: DAI,
+      [TOKEN_RPL]: RPL, 
       [TOKEN_MAKER]: MKR,
       [TOKEN_DIGIX]: DGD,
       // [TOKEN_GOLEM]: GNT,

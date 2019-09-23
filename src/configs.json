@@ -19,7 +19,7 @@
       "blockNumber": 5216718
     },
     "main": {
-      "address": "0xB7ac09C2c0217B07d7c103029B4918a2C401eeCB",
+      "address": "0x39755357759ce0d7f32dc8dc45414cca409ae24e",
       "blockNumber": 4751582
     }
   },
@@ -39,7 +39,9 @@
       "DGD": "0xbb7697d091a2b9428053e2d42d088fcd2a6a0aaf",
       "GNT": "0xece9fa304cc965b00afc186f5d0281a00d3dbbfd",
       "W-GNT": "0xbd1ceb35769eb44b641c8e257005817183fc2817",
-      "RHOC": "0x7352c20e00d3c89037a8959699741c341771ed59"
+      "RHOC": "0x7352c20e00d3c89037a8959699741c341771ed59",
+      "RPL": "0xb4efd85c19999d84251304bda99e90b92300bd93"
+
     },
     "main": {
       "W-ETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -48,7 +50,8 @@
       "DGD": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a",
       "GNT": "0xa74476443119a942de498590fe1f2454d7d4ac0d",
       "W-GNT": "0x01afc37f4f85babc47c0e2d0eababc7fb49793c8",
-      "RHOC": "0x168296bb09e24a88805cb9c33356536b980d3fc5"
+      "RHOC": "0x168296bb09e24a88805cb9c33356536b980d3fc5",
+      "RPL": "0xb4efd85c19999d84251304bda99e90b92300bd93"
     }
   }
 }

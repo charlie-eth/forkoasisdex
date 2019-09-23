@@ -20,13 +20,11 @@ class OasisTestingWarningMessage extends PureComponent {
               </span>
               <span styleName="Text">
                 <div>
-                  OasisDEX.com is shutting down. To trade ETH and DAI, check out our new 
-                  marketplace: <a href="https://eth2dai.com/">eth2dai.com</a>. For other pairs
-                  you can still use oasisdex.com to cancel your orders. Read
-                  more <a href="https://medium.com/makerdao/a-new-oasis-5b9539a64adf">here</a>.
+                  OasisDex is never shutting down. Long live the decentralised web. Email: forkoasisdex@protonmail.ch
                 </div>
               </span>
             </li>
+
           </ul>
         </div>
       </OasisMessage>

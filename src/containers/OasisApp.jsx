@@ -74,9 +74,9 @@ export class OasisAppWrapper extends PureComponent {
       isAppLoading, globalFormLock,
     } = this.props;
 
-    if(!localStorage.getItem('shutdownAnnouncement')) {
-      return <ClickWarp/>;
-    }
+    // if(!localStorage.getItem('announcement')) {
+    //   return <ClickWarp/>;
+    // }
 
     if (noProviderConnected)
       return <NoConnection />;
