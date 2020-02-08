@@ -20,13 +20,13 @@ exports[`(Component) OasisTestingWarningMessage should render 1`] = `
           styleName="Text"
         >
           <div>
-            OasisDEX.com is shutting down. To trade ETH and DAI, check out our new marketplace: 
+            OasisDEX.com is shutting down. To trade ETH and DAI, check out our new marketplace:
             <a
               href="https://eth2dai.com/"
             >
               eth2dai.com
             </a>
-            . For other pairs you can still use oasisdex.com to cancel your orders. Read more 
+            . For other pairs you can still use oasisdex.com to cancel your orders. Read more
             <a
               href="https://medium.com/makerdao/a-new-oasis-5b9539a64adf"
             >
