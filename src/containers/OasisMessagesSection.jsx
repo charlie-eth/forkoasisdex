@@ -23,7 +23,7 @@ export class OasisMessagesSectionWrapper extends PureComponent {
     return isSessionInitialized ? (
       <div className={styles.base}>
         <div className="row" style={{ marginBottom: "20px" }}>
-          <div className="col-md-7">
+          <div className="col-md-6">
             <div className={styles.InfoMessagesSection}>
               {!messages[MSGTYPE_INFO].dismissed && (
                 <OasisWelcomeMessageWrapper />
@@ -32,7 +32,7 @@ export class OasisMessagesSectionWrapper extends PureComponent {
           </div>
           <div
             className={
-              messages[MSGTYPE_INFO].dismissed ? "col-md-12" : "col-md-5"
+              messages[MSGTYPE_INFO].dismissed ? "col-md-12" : "col-md-6"
             }
           >
             <OasisTestingWarningMessage />
