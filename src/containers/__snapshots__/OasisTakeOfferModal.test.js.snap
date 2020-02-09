@@ -8,6 +8,7 @@ exports[`(Container) OasisTakeOfferModal should render 1`] = `
   isOpen={true}
   parentSelector={[Function]}
   portalClassName="ReactModalPortal"
+  role="dialog"
   shouldCloseOnEsc={true}
   shouldCloseOnOverlayClick={true}
   shouldFocusAfterRender={true}
