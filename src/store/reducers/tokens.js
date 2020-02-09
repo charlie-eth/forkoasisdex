@@ -13,6 +13,7 @@ import {
   TOKEN_MAKER,
   TOKEN_RHOC,
   TOKEN_RPL,
+  TOKEN_SNX,
 
   TOKEN_WRAPPED_ETH,
 } from '../../constants';
@@ -30,6 +31,7 @@ const initialState = fromJS({
     TOKEN_DIGIX,
     // TOKEN_GOLEM,
     // TOKEN_WRAPPED_GNT,
+    TOKEN_SNX,
     TOKEN_RPL,
     TOKEN_RHOC,
 
@@ -41,6 +43,7 @@ const initialState = fromJS({
     TOKEN_MAKER,
     // TOKEN_WRAPPED_GNT,
     TOKEN_DIGIX,
+    TOKEN_SNX,
     TOKEN_RPL,
   ],
   baseTokens: BASE_TOKENS,
@@ -58,6 +61,7 @@ const initialState = fromJS({
     [TOKEN_GOLEM]: { precision: 18, format: "0,0.00[0000000000000000]" },
     // [TOKEN_WRAPPED_GNT]: { precision: 18, format: "0,0.00[0000000000000000]" },
     [TOKEN_RPL]: { precision: 18, format: "0,0.00[0000000000000000]" },
+    [TOKEN_SNX]: { precision: 18, format: "0,0.00[0000000000000000]" },
 
     [TOKEN_RHOC]: { precision: 8, format: "0,0.00[000000]" },
   },

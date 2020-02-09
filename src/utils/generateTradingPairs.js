@@ -26,7 +26,7 @@ export const generateTradingPairs = () => {
       isDefault: true
     },
     {
-      base: TOKEN_RPL,
+      base: TOKEN_SNX,
       quote: TOKEN_WRAPPED_ETH,
       isDefault: true
 

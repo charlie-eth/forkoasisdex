@@ -2,7 +2,7 @@ import { createAction, handleActions } from "redux-actions";
 import { fromJS } from "immutable";
 import { fulfilled } from "../../utils/store";
 import { convertTo18Precision } from "../../utils/conversion";
-import { TOKEN_DAI, TOKEN_DIGIX, TOKEN_MAKER, TOKEN_RHOC, TOKEN_WRAPPED_ETH, TOKEN_RPL } from '../../constants';
+import { TOKEN_DAI, TOKEN_DIGIX, TOKEN_MAKER, TOKEN_RHOC, TOKEN_WRAPPED_ETH, TOKEN_RPL, TOKEN_SNX } from '../../constants';
 
 const initialState = fromJS({
   limitsLoaded: false,
@@ -13,6 +13,7 @@ const initialState = fromJS({
     [TOKEN_DIGIX]:       { minSell: null, maxSell: null },
     [TOKEN_RHOC]:        { minSell: null, maxSell: null },
     [TOKEN_RPL]:         { minSell: null, maxSell: null },
+    [TOKEN_SNX]:         { minSell: null, maxSell: null },
   }
 });
 

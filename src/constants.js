@@ -43,6 +43,7 @@ export const TOKEN_DIGIX = "DGD";
 export const TOKEN_GOLEM = "GNT";
 export const TOKEN_RHOC = "RHOC";
 export const TOKEN_RPL = "RPL";
+export const TOKEN_SNX = "SNX";
 
 export const QUOTE_TOKENS = [TOKEN_WRAPPED_ETH, TOKEN_DAI];
 
@@ -52,6 +53,7 @@ export const BASE_TOKENS = [
   TOKEN_DIGIX,
   TOKEN_RHOC,
   TOKEN_RPL,
+  TOKEN_SNX
 ];
 
 export const MAKE_BUY_OFFER = "OFFER_MAKES/MAKE_BUY_OFFER";
