@@ -4,6 +4,7 @@ import {
   TOKEN_MAKER,
   TOKEN_RHOC,
   TOKEN_RPL,
+  TOKEN_SNX,
   TOKEN_WRAPPED_ETH,
 } from "../constants";
 
