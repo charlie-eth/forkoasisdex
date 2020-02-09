@@ -2,9 +2,7 @@
 
 exports[`(Container) OasisSignificantDigits should render 1`] = `
 <Manager>
-  <Reference>
-    <Component />
-  </Reference>
+  <Reference />
 </Manager>
 `;
 
